@@ -1,0 +1,19 @@
+// Simple example of a request file
+// I’ve added time numbers in the comments just to make it more readable. Person names
+// can be any string. In this example they are p1, p2, and so on for convenience.
+T 		 // time=0
+R p1 4 5 // This means person p1 arrived at floor 2 and wants to go to floor 5.
+R p2 3 4
+R p3 1 4 // Note that three people arrived at the first time click.
+T 		 // time=1
+R p4 3 5
+T 		 // time=2
+T 		 // time=3
+T 		 // time=4
+T 		 // time=5 No requests showed up at time clicks 2, 3, 4, or 5.
+T 		 // time=6
+R p5 2 1
+R p6 5 1
+R p7 1 2
+T 		 // time=7
+T 		 // time=8 
